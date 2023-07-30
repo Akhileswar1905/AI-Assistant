@@ -1,0 +1,19 @@
+
+
+#A function to compute factorial using AI
+def factorial_ai(n):
+  #initializing the values 
+  fact = 1
+  it = 1
+  while it <= n:
+    #Multiply each iterated values
+    fact = fact * it
+    #incrementing it
+    it+=1
+  return fact
+
+#input number from user
+n = int(input("Enter a number: "))
+
+#display the result
+print(factorial_ai(n))
